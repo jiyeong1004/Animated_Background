@@ -52,8 +52,20 @@
     width: 100%;
     height: 280px;
     background: url(image/bg.png);
+    animation: animateBg 25s linear infinite;
     background-size: 1500px;
     background-repeat: repeat-x;
+}
+@keyframes animateBg
+{
+    0%
+    {
+        background-position-x: 0;
+    }
+    100%
+    {
+        background-position-x: -1500px;
+    }
 }
 .car1
 {
